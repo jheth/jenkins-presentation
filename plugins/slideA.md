@@ -1,4 +1,4 @@
-!SLIDE
+!SLIDE bullets
 
 # Plug-Ins #
 
@@ -7,7 +7,7 @@
 
 !SLIDE bullets incremental transition=fade
 
-# Install Plug-In
+# Install Plug-In #
 
 * Manage Jenkins -> Manage Plugins
 * Check the box
@@ -16,7 +16,7 @@
 
 !SLIDE bullets incremental transition=fade
 
-# Contribute
+# Contribute #
 
 * They make it easy
 * GitHub: https://github.com/jenkinsci

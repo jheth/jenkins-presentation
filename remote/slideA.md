@@ -1,47 +1,53 @@
 !SLIDE
 
-# Remote API
+# Remote Integration / Interaction #
 
-* .../api/?
+!SLIDE bullets incremental transition=fade
 
-* http://hudson.sentryds.com:8080/api/?
-	- XML, JSON, Python
+# Remote API #
 
-* http://hudson.sentryds.com:8080/job/Database/api/?
+* Supports XML, JSON, Python response
+* http://server/api/?
+* Append /api/? to diffrent object types.
+* http://hudson.sentryds.com:8080/api/xml
+* http://hudson.sentryds.com:8080/job/Database/api/json
+* http://hudson.sentryds.com:8080/computer/api/?
+* http://hudson.sentryds.com:8080/view/Docs/api/?
 
 
 !SLIDE bullets incremental transition=fade
 
-# Build on Commit - SVN post-commit hook
+# Build on Commit #
+## SVN post-commit hook ##
 
-@@@
-REPOS="$1"
-REV="$2"
-UUID=`svnlook uuid $REPOS`
-/usr/bin/wget \
-  --header "Content-Type:text/plain;charset=UTF-8" \
-  --post-data "`svnlook changed --revision $REV $REPOS`" \
-  --output-document "-" \
-  --timeout=2 \
-  http://server/subversion/${UUID}/notifyCommit?rev=$REV
-@@@
+*  
+REPOS="$1"  
+REV="$2"  
+UUID=`svnlook uuid $REPOS`  
+/usr/bin/wget \  
+  --header "Content-Type:text/plain;charset=UTF-8" \  
+  --post-data "`svnlook changed --revision $REV $REPOS`" \  
+  --output-document "-" \  
+  --timeout=2 \  
+  http://server/subversion/${UUID}/notifyCommit?rev=$REV  
+
 
 !SLIDE bullets incremental transition=fade
 
-# Build on Commit using GitHub
+# Build on Commit #
+## GitHub ##
 
 * GitHub -> Repository -> Admin -> Deploy Keys
 * Add Post-Receive URL
 * http://jenkins:8080/job/Sniffle/build
-
-If authentication is enabled:
+* If authentication is enabled:
 * http://jenkins:8080/job/Sniffle/build?token=shared_secret
 
 !SLIDE bullets incremental transition=fade
 
-# CLI 
+# CLI #
 
-[java -jar jenkins-cli.jar -s http://jheth.sentryds.com:8080/ help]
+## [java -jar jenkins-cli.jar -s http://server:8080/ help] ##
 
 * build
 * clear-queue
@@ -57,7 +63,7 @@ If authentication is enabled:
 
 !SLIDE bullets incremental transition=fade
 
-# Jabber Bot
+# Jabber Bot #
 
 * !help
 * !build [JobName]

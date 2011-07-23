@@ -1,6 +1,10 @@
-!SLIDE
+!SLIDE 
 
-# Master -> Slave
+# Jenkins Cluster #
+
+!SLIDE bullets incremental transition=fade
+
+# Master -> Slave #
 
 * Slave = Node
 * Supports Windows and Linux nodes
@@ -9,7 +13,7 @@
 
 !SLIDE bullets incremental transition=fade
 
-# Configure Node
+# Configure Node #
 
 * Manage Jenkins -> Manage Nodes -> New Node
 * Bring Node online (Jenkins auto-installs slave files)
