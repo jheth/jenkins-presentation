@@ -45,7 +45,7 @@ An extendable open source continuous integration server
 
 # The Build
 
-## The entire set of ALL steps needed to obtain the software product.
+### The entire set of ALL steps needed to obtain the software product.
 
 * Checkout code from SCM
 * Compile code (if necessary)
@@ -61,7 +61,7 @@ An extendable open source continuous integration server
 
 # Job vs Build
 
-* Job is to Build as Class is to Instance of a Class.
+* Job is to Build as Class is to Instance.
 * A Build is a single run of a Job definition.
 
 # Demo
