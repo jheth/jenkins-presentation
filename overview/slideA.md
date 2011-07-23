@@ -65,6 +65,8 @@ An extendable open source continuous integration server
 * Job is to Build as Class is to Instance.
 * A Build is a single run of a Job definition.
 
+!SLIDE bullets incremental transition=fade
+
 # Demo
 
 

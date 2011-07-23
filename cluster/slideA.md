@@ -5,7 +5,7 @@
 * Slave = Node
 * Supports Windows and Linux nodes
 * Test in different environments (OS, package versions, etc)
-* Off load resources
+* Offload resources
 
 !SLIDE bullets incremental transition=fade
 

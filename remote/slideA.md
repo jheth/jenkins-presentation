@@ -2,9 +2,13 @@
 
 # Remote API
 
+* .../api/?
+
 * http://hudson.sentryds.com:8080/api/?
-	* XML, JSON, Python
+	- XML, JSON, Python
+
 * http://hudson.sentryds.com:8080/job/Database/api/?
+
 
 !SLIDE bullets incremental transition=fade
 
@@ -21,6 +25,8 @@ UUID=`svnlook uuid $REPOS`
   --timeout=2 \
   http://server/subversion/${UUID}/notifyCommit?rev=$REV
 @@@
+
+!SLIDE bullets incremental transition=fade
 
 # Build on Commit using GitHub
 

@@ -19,6 +19,7 @@
 # Contribute
 
 * They make it easy
+* GitHub: https://github.com/jenkinsci
 * Maven2 used for building, testing, and deploying plugins
 * https://wiki.jenkins-ci.org/display/JENKINS/Extend+Jenkins
 

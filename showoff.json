@@ -4,8 +4,8 @@
   "sections": [
     {"section":"overview"},
     {"section":"plugins"},
-    {"section":"remote"}
-    {"section":"cluster"},
+    {"section":"remote"},
+    {"section":"cluster"}
   ]
 }
 
