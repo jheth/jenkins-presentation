@@ -21,6 +21,7 @@ An extendable open source continuous integration server
 * http://jenkins-ci.org
 * Formerly known as Hudson (Oracle debocle) 
 * Open Source / Free for All
+* Collaborate on GitHub: https://github.com/jenkinsci
 
 !SLIDE bullets incremental transition=fade
 
