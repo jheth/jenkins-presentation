@@ -1,0 +1,11 @@
+{
+  "name": "Jenkins",
+  "description": "Continuous Integration Server",
+  "sections": [
+    {"section":"overview"},
+    {"section":"plugins"},
+    {"section":"cluster"},
+    {"section":"remote"}
+  ]
+}
+
