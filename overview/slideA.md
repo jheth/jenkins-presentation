@@ -1,16 +1,16 @@
 !SLIDE
 
-# Continuous Integration with Jenkins #
+# Continuous Integration  
+# with 
+# ![jenkins](../images/jenkins_logo.png)
 
-![jenkins](jenkins.png)
-
-Ready to serve you day or night
+An extendable open source continuous integration server
 
 !SLIDE incremental transition=fade
 
 # Continuous Integration
 
-* [CI by Martin Fowler]: http://martinfowler.com/articles/continuousIntegration.html
+* http://martinfowler.com/articles/continuousIntegration.html    "Martin Fowler Article"
 * Integrate and Test code changes ASAP
 
 !SLIDE bullets incremental transition=fade
@@ -29,7 +29,7 @@ Ready to serve you day or night
 * wget http://mirrors.jenkins-ci.org/war/latest/jenkins.war
 * java -jar jenkins.war
 * Visit http://localhost:8080
-* /home/<user>/.jenkins
+* /home/jheth/.jenkins
 
 !SLIDE bullets incremental transition=fade
 
