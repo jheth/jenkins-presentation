@@ -5,7 +5,8 @@
     {"section":"overview"},
     {"section":"plugins"},
     {"section":"remote"},
-    {"section":"cluster"}
+    {"section":"cluster"},
+    {"section":"end"}
   ]
 }
 
