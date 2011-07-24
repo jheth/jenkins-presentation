@@ -15,6 +15,17 @@
 
 !SLIDE bullets incremental transition=fade
 
+# Workflow #
+
+* Checkout code from SCM (SVN, GIT, etc)
+* Make changes to code (bug fixes, new features)
+* Run automated tests
+* Merge with latest changes from SCM
+* Commit code
+* Run a build on a clean machine
+
+!SLIDE bullets incremental transition=fade
+
 # Introducing Jenkins #
 
 * Open Source Continuous Integration Server
@@ -32,16 +43,6 @@
 * java -jar jenkins.war
 * Visit http://server:8080
 * /Users/jheth/.jenkins
-
-!SLIDE bullets incremental transition=fade
-
-# Developer Workflow #
-
-* Checkout code from SCM (SVN, GIT, etc)
-* Make changes to code (bug fixes, new features)
-* Run automated tests
-* Commit code
-* Repeat steps 2-4
 
 !SLIDE bullets incremental transition=fade
 
