@@ -1,7 +1,9 @@
 .bullets ul li {
     text-align: left;
+	padding: 15px;
 }
 
 .smbullets ul li {
     text-align: left;
 }
+

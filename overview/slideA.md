@@ -8,10 +8,10 @@
 
 # Continuous Integration (CI) #
 
-* [Martin Fowler Article](http://martinfowler.com/articles/continuousIntegration.html)
+* [http://martinfowler.com/articles/continuousIntegration.html](http://martinfowler.com/articles/continuousIntegration.html)
 * Integrate and test code changes early and often
 * Make results visible to all
-* Automate it
+* Automate the Build and Deployment
 
 !SLIDE bullets incremental transition=fade
 
@@ -19,10 +19,14 @@
 
 * Checkout code from SCM (SVN, GIT, etc)
 * Make changes to code (bug fixes, new features)
-* Run automated tests
+* Write and Run automated tests
 * Merge with latest changes from SCM
 * Commit code
 * Run a build on a clean machine
+
+!SLIDE bullets incremental transition=fade
+
+![Diagram](../images/ci.jpg)
 
 !SLIDE bullets incremental transition=fade
 
@@ -30,7 +34,7 @@
 
 * Open Source Continuous Integration Server
 * [http://jenkins-ci.org](http://jenkins-ci.org)
-* Formerly known as Hudson (Oracle debocle) 
+* Formerly known as Hudson (Oracle owns the rights) 
 * Collaborate on GitHub: [https://github.com/jenkinsci](https://github.com/jenkinsci)
 
 !SLIDE bullets incremental transition=fade
@@ -56,19 +60,21 @@
 * Run automated tests
 * Generate code coverage reports
 * Generate code documentation
-* Report the results
-* Publish/Deploy build artifacts
-* Alert developers on failure
 
 !SLIDE bullets incremental transition=fade
 
-# Job vs Build #
+# The Build #
 
-* Job is to Build as Class is to Instance.
-* A Build is a single run of a Job definition.
+### The entire set of ALL steps needed to obtain the software product.
+
+* Display the results
+* Publish/Deploy build artifacts
+* Alert developers on failure
+* ... 
+*   
+*   
 
 !SLIDE bullets incremental transition=fade
 
 # Demo #
-
 
