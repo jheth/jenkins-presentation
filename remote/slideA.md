@@ -8,7 +8,7 @@
 
 * Supports XML, JSON, Python response
 * http://server/api/?
-* Append /api/? to diffrent object types.
+* Append /api/? to different object types.
 * http://hudson.sentryds.com:8080/api/xml
 * http://hudson.sentryds.com:8080/job/Database/api/json
 * http://hudson.sentryds.com:8080/computer/api/?
@@ -20,7 +20,7 @@
 # Build on Commit #
 ## SVN post-commit hook ##
 
-*  
+** 
 REPOS="$1"  
 REV="$2"  
 UUID=`svnlook uuid $REPOS`  
