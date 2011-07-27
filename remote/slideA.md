@@ -20,16 +20,15 @@
 # Build on Commit #
 ## SVN post-commit hook ##
 
-** 
-REPOS="$1"  
-REV="$2"  
-UUID=`svnlook uuid $REPOS`  
-/usr/bin/wget \  
-  --header "Content-Type:text/plain;charset=UTF-8" \  
-  --post-data "`svnlook changed --revision $REV $REPOS`" \  
-  --output-document "-" \  
-  --timeout=2 \  
-  http://server/subversion/${UUID}/notifyCommit?rev=$REV  
+> REPOS="$1"  
+> REV="$2"  
+> UUID=`svnlook uuid $REPOS`  
+> /usr/bin/wget \  
+>   --header "Content-Type:text/plain;charset=UTF-8" \  
+>   --post-data "`svnlook changed --revision $REV $REPOS`" \  
+>   --output-document "-" \  
+>   --timeout=2 \  
+>   http://server/subversion/${UUID}/notifyCommit?rev=$REV  
 
 
 !SLIDE bullets incremental transition=fade
@@ -39,9 +38,9 @@ UUID=`svnlook uuid $REPOS`
 
 * GitHub -> Repository -> Admin -> Deploy Keys
 * Add Post-Receive URL
-* http://jenkins:8080/job/Sniffle/build
+* http://jenkins:8080/job/php-project/build
 * If authentication is enabled:
-* http://jenkins:8080/job/Sniffle/build?token=shared_secret
+* http://jenkins:8080/job/php-project/build?token=shared_secret
 
 !SLIDE bullets incremental transition=fade
 
