@@ -42,7 +42,7 @@
 * If authentication is enabled:
 * http://jenkins:8080/job/php-project/build?token=shared_secret
 
-!SLIDE bullets incremental transition=fade
+!SLIDE bullets smaller incremental transition=fade
 
 # CLI #
 

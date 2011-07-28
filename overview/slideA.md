@@ -22,7 +22,7 @@
 * Write and Run automated tests
 * Merge with latest changes from SCM
 * Commit code
-* Run a build on a clean machine
+* Run a build on a clean machine (CI Server)
 
 !SLIDE bullets incremental transition=fade
 
