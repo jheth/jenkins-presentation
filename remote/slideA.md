@@ -40,24 +40,6 @@
 * If authentication is enabled:
 * http://server:8080/job/php-project/build?token=shared_secret
 
-!SLIDE bullets smaller incremental transition=fade
-
-# CLI #
-
-## [java -jar jenkins-cli.jar -s http://server:8080/ help] ##
-
-* build
-* clear-queue
-* install-plugin
-* list-changes
-* login
-* logout
-* mail
-* offline-node
-* online-node
-* version
-* ....
-
 !SLIDE bullets incremental transition=fade
 
 # Jabber Bot #

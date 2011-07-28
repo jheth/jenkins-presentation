@@ -64,15 +64,6 @@
 * ~  Source Code Management
 * ~  User Interface
 
-!SLIDE bullets incremental transition=fade
-
-# Install Plug-In #
-
-* Manage Jenkins -> Manage Plugins
-* Check the box
-* Click Install
-* Restart Jenkins
-
 !SLIDE bullets smaller incremental transition=fade
 
 # The Build #
