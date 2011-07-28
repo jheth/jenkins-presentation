@@ -7,13 +7,11 @@
 # Remote API #
 
 * Supports XML, JSON, Python response
-* http://server/api/?
 * Append /api/? to different object types.
-* http://hudson.sentryds.com:8080/api/xml
-* http://hudson.sentryds.com:8080/job/Database/api/json
-* http://hudson.sentryds.com:8080/computer/api/?
-* http://hudson.sentryds.com:8080/view/Docs/api/?
-
+* http://server:8080/api/xml
+* http://server:8080/job/php-project/api/
+* http://server:8080/job/php-project/build
+* http://server:8080/job/php-project/disable
 
 !SLIDE bullets incremental transition=fade
 
@@ -38,9 +36,9 @@
 
 * GitHub -> Repository -> Admin -> Deploy Keys
 * Add Post-Receive URL
-* http://jenkins:8080/job/php-project/build
+* http://server:8080/job/php-project/build
 * If authentication is enabled:
-* http://jenkins:8080/job/php-project/build?token=shared_secret
+* http://server:8080/job/php-project/build?token=shared_secret
 
 !SLIDE bullets smaller incremental transition=fade
 

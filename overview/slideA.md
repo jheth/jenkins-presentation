@@ -54,14 +54,14 @@
 
 * Jenkins Core
 * 300+ community contributed plugins
-*   Artifact Uploaders
-*   Authentication and User Management
-*   Build Notifiers
-*   Build Reports
-*   Build Triggers
-*   Cluster Management
-*   Source Code Management
-*   User Interface
+* ~  Artifact Uploaders
+* ~  Authentication and User Management
+* ~  Build Notifiers
+* ~  Build Reports
+* ~  Build Triggers
+* ~  Cluster Management
+* ~  Source Code Management
+* ~  User Interface
 
 !SLIDE bullets incremental transition=fade
 
@@ -72,41 +72,21 @@
 * Click Install
 * Restart Jenkins
 
-!SLIDE bullets incremental transition=fade
-
-# Contribute #
-
-* They make it easy
-* GitHub: https://github.com/jenkinsci
-* Maven2 used for building, testing, and deploying plugins
-* https://wiki.jenkins-ci.org/display/JENKINS/Extend+Jenkins
-
-
-!SLIDE bullets incremental transition=fade
+!SLIDE bullets smaller incremental transition=fade
 
 # The Build #
 
-### The entire set of ALL steps needed to obtain the software product.
+### The entire set of ALL steps needed to obtain the software product. ###
 
 * Checkout code from SCM
 * Compile code (if necessary)
-* Perform static analysis checks
-* Run automated tests
+* Perform static analysis checks (PMD, CPD, Checkstyle)
+* Run automated tests (xUnit)
 * Generate code coverage reports
 * Generate code documentation
-
-!SLIDE bullets incremental transition=fade
-
-# The Build #
-
-### The entire set of ALL steps needed to obtain the software product.
-
-* Display the results
-* Publish/Deploy build artifacts
-* Alert developers on failure
-* ... 
-*   
-*   
+* Display the results (Reports, Graphs)
+* Publish/Deploy build artifacts (FTP, SCP)
+* Alert developers on failure (Email, Jabber)
 
 !SLIDE bullets incremental transition=fade
 
