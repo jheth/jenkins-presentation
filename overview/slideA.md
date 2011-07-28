@@ -48,6 +48,40 @@
 * Visit http://server:8080
 * /Users/jheth/.jenkins
 
+!SLIDE bullets smaller incremental transition=fade
+
+# Architecture #
+
+* Jenkins Core
+* 300+ community contributed plugins
+*   Artifact Uploaders
+*   Authentication and User Management
+*   Build Notifiers
+*   Build Reports
+*   Build Triggers
+*   Cluster Management
+*   Source Code Management
+*   User Interface
+
+!SLIDE bullets incremental transition=fade
+
+# Install Plug-In #
+
+* Manage Jenkins -> Manage Plugins
+* Check the box
+* Click Install
+* Restart Jenkins
+
+!SLIDE bullets incremental transition=fade
+
+# Contribute #
+
+* They make it easy
+* GitHub: https://github.com/jenkinsci
+* Maven2 used for building, testing, and deploying plugins
+* https://wiki.jenkins-ci.org/display/JENKINS/Extend+Jenkins
+
+
 !SLIDE bullets incremental transition=fade
 
 # The Build #

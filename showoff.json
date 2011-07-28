@@ -3,7 +3,6 @@
   "description": "Continuous Integration Server",
   "sections": [
     {"section":"overview"},
-    {"section":"plugins"},
     {"section":"remote"},
     {"section":"cluster"},
     {"section":"end"}
