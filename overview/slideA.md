@@ -4,15 +4,23 @@
 
 ## An extendable open source continuous integration server ##
 
+!SLIDE bullets
+
+# Continuous Integration (CI) defined #
+
+> "Continuous Integration is a software development practice where members of a team integrate their work frequently, usually each person integrates at least daily - leading to multiple integrations per day. Each integration is verified by an automated build (including test) to detect integration errors as quickly as possible."  -- Martin Fowler
+>	
+> <br />	
+> [http://martinfowler.com/articles/continuousIntegration.html](http://martinfowler.com/articles/continuousIntegration.html)
+
 !SLIDE bullets incremental transition=fade
 
 # Continuous Integration (CI) #
 
-* [http://martinfowler.com/articles/continuousIntegration.html](http://martinfowler.com/articles/continuousIntegration.html)
-* Improve quality, Decrease delivery time
+* The Goal: Improve quality, Decrease delivery time
 * Integrate and test code changes early and often
-* Make results visible to all
 * Automate the Build and Deployment
+* Make results visible to all
 
 !SLIDE bullets incremental transition=fade
 
