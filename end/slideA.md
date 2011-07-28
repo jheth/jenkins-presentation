@@ -36,5 +36,4 @@
 * IRC: #jenkins
 * New O'Reilly Book (PDF is free)
     ** [http://www.wakaleo.com/download-ci-with-hudson](http://www.wakaleo.com/download-ci-with-hudson)
-* [http://hudson.sentryds.com:8080](http://hudson.sentryds.com:8080)
 

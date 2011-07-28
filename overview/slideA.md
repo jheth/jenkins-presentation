@@ -9,6 +9,7 @@
 # Continuous Integration (CI) #
 
 * [http://martinfowler.com/articles/continuousIntegration.html](http://martinfowler.com/articles/continuousIntegration.html)
+* Improve quality, Decrease delivery time
 * Integrate and test code changes early and often
 * Make results visible to all
 * Automate the Build and Deployment
