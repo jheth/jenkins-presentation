@@ -1,5 +1,23 @@
 !SLIDE bullets incremental transition=fade
 
+# Storage #
+
+    /User/jheth/.jenkins
+        config.xml
+        plugins
+           git
+           git.hpi
+        workspace
+           php-project
+		      ...
+        jobs
+           php-project
+              config.xml
+              builds
+
+
+!SLIDE bullets incremental transition=fade
+
 # Contribute #
 
 * They make it easy
